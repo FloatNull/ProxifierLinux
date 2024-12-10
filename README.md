@@ -12,14 +12,14 @@ cd proxifier-linux
 
 ## Usage
 
-1. Setup redsocks.conf (Example config given)  
+1. Setup redsocks.conf (Example config given) 
 `/etc/redsocks.conf`
-2. Open Terminal and run  
+3. Open Terminal and run  
 `sudo ./start-proxifier.sh`
 
 Done. [Check IP](https://ifconfig.me/)
 
-3. CTRL+Z to exit first script and flush iptables  
+3. kill redsocks and flush iptables  
 `sudo ./stop-proxifier.sh`
 
 
